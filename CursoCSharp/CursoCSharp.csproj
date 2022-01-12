@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.OOPInicio.AreaDoTriangulo</StartupObject>
+    <StartupObject>CursoCSharp.OOPInicio.Ex05</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -49,7 +49,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OOPInicio\AreaDoTriangulo.cs" />
+    <Compile Include="OOPInicio\Ex05.cs" />
+    <Compile Include="OOPInicio\AreaDoTrianguloComPOO.cs" />
+    <Compile Include="OOPInicio\AreaDoTrianguloSemPOO.cs" />
+    <Compile Include="OOPInicio\AreaDoTrinaguloComDelegacao.cs" />
+    <Compile Include="OOPInicio\ClasseTriangulo.cs" />
+    <Compile Include="OOPInicio\Ex01.cs" />
+    <Compile Include="OOPInicio\Ex02.cs" />
+    <Compile Include="OOPInicio\Ex03.cs" />
+    <Compile Include="OOPInicio\Ex04.cs" />
+    <Compile Include="OOPInicio\Funcionario.cs" />
+    <Compile Include="OOPInicio\Pessoa.cs" />
+    <Compile Include="OOPInicio\Produto.cs" />
+    <Compile Include="OOPInicio\Retangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecapitulacaoDeLogica\Aula17.cs" />
     <Compile Include="RecapitulacaoDeLogica\Aula18.cs" />

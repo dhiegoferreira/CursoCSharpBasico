@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.OOPInicio
 {
-    class AreaDoTriangulo
+    class AreaDoTrianguloSemPOO
     {
         
        
@@ -49,12 +49,7 @@ namespace CursoCSharp.OOPInicio
             area2 = Math.Sqrt(area2);
             Console.WriteLine($"A área do primeiro triângulo é: {area1:F2}");
             Console.WriteLine($"A área do segundo triângulo é: {area2:F2}");
-            
-
-            
-
-
-            
+       
 
         }
     }
