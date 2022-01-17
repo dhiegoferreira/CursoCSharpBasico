@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ConstrutoresPalavrathisSobrecargaEncapsulamento._55Encapsulamento</StartupObject>
+    <StartupObject>CursoCSharp.LivroOrientacaoaObjetos.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -64,6 +64,13 @@
     <Compile Include="ConstrutoresPalavrathisSobrecargaEncapsulamento\Ex03.cs" />
     <Compile Include="ConstrutoresPalavrathisSobrecargaEncapsulamento\Produtos.cs" />
     <Compile Include="ConstrutoresPalavrathisSobrecargaEncapsulamento\ProdutosPropertis.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Autor.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Departamento.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Editora.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Endereco.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Instituicao.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Livro.cs" />
+    <Compile Include="LivroOrientacaoaObjetos\Cap.3\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecapitulacaoDeLogica\Aula17.cs" />
     <Compile Include="RecapitulacaoDeLogica\Aula18.cs" />
