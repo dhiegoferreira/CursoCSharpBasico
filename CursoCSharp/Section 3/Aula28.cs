@@ -17,9 +17,9 @@ namespace CursoCSharp.RecapitulacaoDeLogica
             double preco = double.Parse(Console.ReadLine());
 
 
-            if(preco > 100.0)
+            if (preco > 100.0)
             {
-               // double desconto = preco * 0.1;
+                // double desconto = preco * 0.1;
 
             }
 

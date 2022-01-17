@@ -1,7 +1,6 @@
 ﻿
 
-namespace CursoCSharp.LivroOrientacaoaObjetos.Cap._3
-{
+namespace CursoCSharp.OrientacaoaObjetos
     class Livro
     {
         public string Titulo { get; set; }

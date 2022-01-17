@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ConstrutoresPalavrathisSobrecargaEncapsulamento
 {
-    class _55Encapsulamento
+    class Encapsulamento
     {
         static void Main(string[] args)
         {

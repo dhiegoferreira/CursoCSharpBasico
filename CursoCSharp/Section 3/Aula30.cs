@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace CursoCSharp.RecapitulacaoDeLogica
 {
@@ -11,7 +9,7 @@ namespace CursoCSharp.RecapitulacaoDeLogica
         static void Main(string[] args)
         {
             int n1;
-           
+
             n1 = int.Parse(Console.ReadLine());
             Console.WriteLine(n1);
             //n2 = int.Parse(Console.ReadLine());
@@ -25,9 +23,7 @@ namespace CursoCSharp.RecapitulacaoDeLogica
                 } else
                 {
                     Console.WriteLine($"O {n1} é maior", n1);
-
                 } 
-
             } else
             {
                 Console.WriteLine($"O {n1} é o menor");
@@ -48,6 +44,6 @@ namespace CursoCSharp.RecapitulacaoDeLogica
             //Console.WriteLine(n3);
 
         }
-        
+
     }
 }

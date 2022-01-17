@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.LivroOrientacaoaObjetos.Cap._3
+namespace CursoCSharp.OrientacaoaObjetos
 {
     class Editora
     {
