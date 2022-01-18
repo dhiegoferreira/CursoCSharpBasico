@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.LivroOrientacaoaObjetos.Program</StartupObject>
+    <StartupObject>CursoCSharp.Section9.Principal</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -48,23 +48,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OrientacaoaObjetos\Curso.cs" />
-    <Compile Include="Section 4\Ex05.cs" />
-    <Compile Include="Section 4\AreaDoTrianguloComPOO.cs" />
-    <Compile Include="Section 4\AreaDoTrianguloSemPOO.cs" />
-    <Compile Include="Section 4\AreaDoTrinaguloComDelegacao.cs" />
-    <Compile Include="Section 4\ClasseTriangulo.cs" />
-    <Compile Include="Section 4\Ex01.cs" />
-    <Compile Include="Section 4\Ex02.cs" />
-    <Compile Include="Section 4\Ex03.cs" />
-    <Compile Include="Section 4\Ex04.cs" />
-    <Compile Include="Section 4\Funcionario.cs" />
-    <Compile Include="Section 4\Pessoa.cs" />
-    <Compile Include="Section 4\Produto.cs" />
-    <Compile Include="Section 4\Retangulo.cs" />
-    <Compile Include="Section 5\Encapsulamento.cs" />
-    <Compile Include="Section 5\Ex03.cs" />
-    <Compile Include="Section 5\Produtos.cs" />
-    <Compile Include="Section 5\ProdutosPropertis.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Section4\Ex05.cs" />
+    <Compile Include="Section4\AreaDoTrianguloComPOO.cs" />
+    <Compile Include="Section4\AreaDoTrianguloSemPOO.cs" />
+    <Compile Include="Section4\AreaDoTrinaguloComDelegacao.cs" />
+    <Compile Include="Section4\ClasseTriangulo.cs" />
+    <Compile Include="Section4\Ex01.cs" />
+    <Compile Include="Section4\Ex02.cs" />
+    <Compile Include="Section4\Ex03.cs" />
+    <Compile Include="Section4\Ex04.cs" />
+    <Compile Include="Section4\Funcionario.cs" />
+    <Compile Include="Section4\Pessoa.cs" />
+    <Compile Include="Section4\Produto.cs" />
+    <Compile Include="Section4\Retangulo.cs" />
+    <Compile Include="Section5\Encapsulamento.cs" />
+    <Compile Include="Section5\Ex03.cs" />
+    <Compile Include="Section5\Produtos.cs" />
+    <Compile Include="Section5\ProdutosPropertis.cs" />
     <Compile Include="OrientacaoaObjetos\Autor.cs" />
     <Compile Include="OrientacaoaObjetos\Departamento.cs" />
     <Compile Include="OrientacaoaObjetos\Editora.cs" />
@@ -73,22 +74,26 @@
     <Compile Include="OrientacaoaObjetos\Livro.cs" />
     <Compile Include="OrientacaoaObjetos\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Section 3\Aula17.cs" />
-    <Compile Include="Section 3\Aula18.cs" />
-    <Compile Include="Section 3\Aula19.cs" />
-    <Compile Include="Section 3\Aula20.cs" />
-    <Compile Include="Section 3\Aula28.cs" />
-    <Compile Include="Section 3\Aula30.cs" />
-    <Compile Include="Section 6\Calculator.cs" />
-    <Compile Include="Section 6\CalculatorProgram.cs" />
-    <Compile Include="Section 6\DesacolacaoPorGarbageCollector.cs" />
-    <Compile Include="Section 6\Persionato.cs" />
-    <Compile Include="Section 6\PersionatoProgram.cs" />
-    <Compile Include="Section 6\Point.cs" />
-    <Compile Include="Section 6\Product.cs" />
-    <Compile Include="Section 6\Produtos.cs" />
-    <Compile Include="Section 6\ProgramProduct.cs" />
-    <Compile Include="Section 6\SctructInicializacao.cs" />
+    <Compile Include="Section3\Aula17.cs" />
+    <Compile Include="Section3\Aula18.cs" />
+    <Compile Include="Section3\Aula19.cs" />
+    <Compile Include="Section3\Aula20.cs" />
+    <Compile Include="Section3\Aula28.cs" />
+    <Compile Include="Section3\Aula30.cs" />
+    <Compile Include="Section6\Calculator.cs" />
+    <Compile Include="Section6\CalculatorProgram.cs" />
+    <Compile Include="Section6\DesacolacaoPorGarbageCollector.cs" />
+    <Compile Include="Section6\Persionato.cs" />
+    <Compile Include="Section6\PersionatoProgram.cs" />
+    <Compile Include="Section6\Pessoa.cs" />
+    <Compile Include="Section6\Point.cs" />
+    <Compile Include="Section6\Product.cs" />
+    <Compile Include="Section6\Produtos.cs" />
+    <Compile Include="Section6\Program.cs" />
+    <Compile Include="Section6\ProgramProduct.cs" />
+    <Compile Include="Section6\SctructInicializacao.cs" />
+    <Compile Include="Section9\Entities\Order.cs" />
+    <Compile Include="Section9\Entities\Enums\OrderStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

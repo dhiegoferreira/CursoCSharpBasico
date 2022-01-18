@@ -1,14 +1,16 @@
 ﻿
 
 namespace CursoCSharp.OrientacaoaObjetos
+{ 
     class Livro
     {
         public string Titulo { get; set; }
         public string ISBN { get; set; }
-        
+
 
 
         private Editora editora;
+
         public Editora Editora
         {
             get { return this.editora; }
