@@ -6,11 +6,9 @@ namespace CursoCSharp.Section9
 {
     class HourContract
     {
-        public DateTime _date { get; set; }
-        public double _valuePerHour { get; set; }
-        public int _hours { get; set; }
-
-
+        public DateTime Date { get; set; }
+        public double ValuePerHour { get; set; }
+        public int Hours { get; set; }
 
 
         public HourContract()
@@ -24,9 +22,9 @@ namespace CursoCSharp.Section9
         public HourContract(DateTime data, double valuePerHour, int hour)
         {
 
-            _date = data;
-            _valuePerHour = valuePerHour;
-            _hours = hour;
+            Date = data;
+            ValuePerHour = valuePerHour;
+            Hours = hour;
 
         }
 
@@ -34,7 +32,7 @@ namespace CursoCSharp.Section9
         public double TotalValue()
         {
 
-            return _valuePerHour * _hours;
+            return ValuePerHour * Hours;
         }
         
 

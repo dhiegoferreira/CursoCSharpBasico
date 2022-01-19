@@ -8,13 +8,12 @@ namespace CursoCSharp.Section9
 {
     class Department
     {
-        private string _name;
+        public string Name { get; set; }
 
-        public string Name
+        
+        public Department()
         {
-            get { return _name; }
-            set { _name = value; }
-        }
 
+        }
     }
 }

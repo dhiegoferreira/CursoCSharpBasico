@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ProgramTwo</StartupObject>
+    <StartupObject>CursoCSharp.Section9.ProgramThree</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesafioS9\Entities\Cliente.cs" />
+    <Compile Include="DesafioS9\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="DesafioS9\Entities\Order.cs" />
+    <Compile Include="DesafioS9\Entities\OrderItem.cs" />
+    <Compile Include="DesafioS9\Entities\Product.cs" />
     <Compile Include="OrientacaoaObjetos\Curso.cs" />
     <Compile Include="ProgramOne.cs" />
     <Compile Include="ProgramTwo.cs" />
@@ -94,9 +99,12 @@
     <Compile Include="Section6\ProgramProduct.cs" />
     <Compile Include="Section6\SctructInicializacao.cs" />
     <Compile Include="Section9\Department.cs" />
+    <Compile Include="Section9\Entities\Comment.cs" />
     <Compile Include="Section9\Entities\Order.cs" />
     <Compile Include="Section9\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="Section9\Entities\Post.cs" />
     <Compile Include="Section9\HourContract.cs" />
+    <Compile Include="Section9\ProgramThree.cs" />
     <Compile Include="Section9\Worker.cs" />
     <Compile Include="Section9\WorkerLevel.cs" />
   </ItemGroup>

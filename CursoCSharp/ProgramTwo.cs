@@ -13,16 +13,7 @@ namespace CursoCSharp
            
 
 
-            /*
-            //Criando uma lista do tipo HourContract
-            List<HourContract> listContracts = new List<HourContract>();
-
-            HourContract c1 = new HourContract("20/20/2020", 24.00, 20) ;
-
-            listContracts.Add(c1);
-
-            Console.WriteLine(listContracts[0].ToString()); 
-            */
+          
 
             //Pelo método construtor
 
@@ -39,10 +30,10 @@ namespace CursoCSharp
             WorkerLevel level = (WorkerLevel) Enum.Parse(typeof(WorkerLevel), $"{levelWorker}");
 
             Console.Write("Base Salaray :");
-            double salaryWorker = double.Parse(Console.ReadLine());
+            double salaryWorker = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             //Creating a object Worker type
-            Worker w1 = new Worker(nameWorker, level, salaryWorker, nameDepartment);
+            Worker worker = new Worker(nameWorker, level, salaryWorker, nameDepartment);
 
             Console.Write("How many contracts to this worker: ");
             int contractsCount = int.Parse(Console.ReadLine());
@@ -56,24 +47,25 @@ namespace CursoCSharp
                 DateTime data = DateTime.Parse(Console.ReadLine());
 
                 Console.Write("Value per hour:");
-                double valuePerHour = double.Parse(Console.ReadLine());
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 Console.Write("Duration (hours): ");
-                int hour = int.Parse(Console.ReadLine());
+                int hours = int.Parse(Console.ReadLine());
 
                 //Adding contracts in list of contracts of w1 listContracts
-                w1.addContract(new HourContract(data, valuePerHour, hour));
-
-                
+                worker.addContract(new HourContract(data, valuePerHour, hours));
             }
 
+
+
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
-            string monthAndYear = Console.ReadLine();
+            string monthAndYear =  Console.ReadLine();
+
             int month = int.Parse(monthAndYear.Substring(0, 2));
             int year = int.Parse(monthAndYear.Substring(3));
-            Console.WriteLine("Name : " + w1._name);
-            Console.WriteLine("Department: " + w1._nameDepartment.Name);
-            Console.WriteLine("Income for " + monthAndYear + ": " + w1.Income(year, month).ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Name : " + worker.Name);
+            Console.WriteLine("Department: " + worker.NameDepartment.Name);
+            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(month, year).ToString("F2", CultureInfo.InvariantCulture));
 
 
         }
