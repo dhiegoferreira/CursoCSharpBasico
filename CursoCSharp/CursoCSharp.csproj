@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section9.Principal</StartupObject>
+    <StartupObject>CursoCSharp.ProgramTwo</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -48,7 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OrientacaoaObjetos\Curso.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ProgramOne.cs" />
+    <Compile Include="ProgramTwo.cs" />
     <Compile Include="Section4\Ex05.cs" />
     <Compile Include="Section4\AreaDoTrianguloComPOO.cs" />
     <Compile Include="Section4\AreaDoTrianguloSemPOO.cs" />
@@ -92,8 +93,12 @@
     <Compile Include="Section6\Program.cs" />
     <Compile Include="Section6\ProgramProduct.cs" />
     <Compile Include="Section6\SctructInicializacao.cs" />
+    <Compile Include="Section9\Department.cs" />
     <Compile Include="Section9\Entities\Order.cs" />
     <Compile Include="Section9\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="Section9\HourContract.cs" />
+    <Compile Include="Section9\Worker.cs" />
+    <Compile Include="Section9\WorkerLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

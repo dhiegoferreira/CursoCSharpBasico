@@ -5,7 +5,7 @@ using System;
 
 namespace CursoCSharp
 {
-    class Program
+    class ProgramOne
     {
         
         static void Main(string[] args)
@@ -21,6 +21,7 @@ namespace CursoCSharp
 
             Console.WriteLine(order);
 
+
             //Converter de enum para string 
             string txt = OrderStatus.PendingPayment.ToString();
 
@@ -31,18 +32,6 @@ namespace CursoCSharp
             
             
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
