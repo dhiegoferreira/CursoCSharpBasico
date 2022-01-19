@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section9.ProgramThree</StartupObject>
+    <StartupObject>CursoCSharp.Section9.Principal</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -89,6 +89,7 @@
     <Compile Include="Section6\Calculator.cs" />
     <Compile Include="Section6\CalculatorProgram.cs" />
     <Compile Include="Section6\DesacolacaoPorGarbageCollector.cs" />
+    <Compile Include="Section6\Listas.cs" />
     <Compile Include="Section6\Persionato.cs" />
     <Compile Include="Section6\PersionatoProgram.cs" />
     <Compile Include="Section6\Pessoa.cs" />
