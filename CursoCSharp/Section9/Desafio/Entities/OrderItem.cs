@@ -6,7 +6,7 @@ namespace CursoCSharp.DesafioS9.Entities
         public int Quantity { get; set; }
         public double Price { get; set; }
         //Fazendo a agregação entre os objetos Product e OrderItem
-        Product product = new Product();
+        public Product product = new Product();
        
 
         //Construtor null
@@ -18,6 +18,12 @@ namespace CursoCSharp.DesafioS9.Entities
         {
             Quantity = quantity;
             Price = price;
+        }
+
+
+        public double SubTotal() 
+        {
+            return Quantity * Price;
         }
 
     }

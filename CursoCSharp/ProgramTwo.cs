@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using System.Globalization;
 
+//SECTION 9 Exercício sobre COMPOSIÇÃO DE OBJETOS
 namespace CursoCSharp
 {
     class ProgramTwo
@@ -11,10 +12,6 @@ namespace CursoCSharp
         {
 
            
-
-
-          
-
             //Pelo método construtor
 
             Console.Write("Enter department´s name:");

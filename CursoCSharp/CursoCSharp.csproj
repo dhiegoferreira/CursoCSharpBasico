@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section9.Principal</StartupObject>
+    <StartupObject>CursoCSharp.ProgramSeven</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,14 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DesafioS9\Entities\Cliente.cs" />
-    <Compile Include="DesafioS9\Entities\Enums\OrderStatus.cs" />
-    <Compile Include="DesafioS9\Entities\Order.cs" />
-    <Compile Include="DesafioS9\Entities\OrderItem.cs" />
-    <Compile Include="DesafioS9\Entities\Product.cs" />
+    <Compile Include="ProgramSeven.cs" />
+    <Compile Include="Section10\Aula131\Entities\Employee.cs" />
+    <Compile Include="Section10\Aula131\Entities\OutSourcedEmployee.cs" />
+    <Compile Include="Section9\Desafio\Entities\Client.cs" />
+    <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
+    <Compile Include="Section9\Desafio\Entities\Order.cs" />
+    <Compile Include="Section9\Desafio\Entities\OrderItem.cs" />
+    <Compile Include="Section9\Desafio\Entities\Product.cs" />
     <Compile Include="OrientacaoaObjetos\Curso.cs" />
+    <Compile Include="ProgramFive.cs" />
+    <Compile Include="ProgramFour.cs" />
     <Compile Include="ProgramOne.cs" />
+    <Compile Include="ProgramSix.cs" />
     <Compile Include="ProgramTwo.cs" />
+    <Compile Include="Section10\Aula127\Entities\Account.cs" />
+    <Compile Include="Section10\Aula127\Entities\BusinessAccount.cs" />
+    <Compile Include="Section10\Aula127\Entities\SavingAccount.cs" />
     <Compile Include="Section4\Ex05.cs" />
     <Compile Include="Section4\AreaDoTrianguloComPOO.cs" />
     <Compile Include="Section4\AreaDoTrianguloSemPOO.cs" />
@@ -105,7 +114,7 @@
     <Compile Include="Section9\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Section9\Entities\Post.cs" />
     <Compile Include="Section9\HourContract.cs" />
-    <Compile Include="Section9\ProgramThree.cs" />
+    <Compile Include="ProgramThree.cs" />
     <Compile Include="Section9\Worker.cs" />
     <Compile Include="Section9\WorkerLevel.cs" />
   </ItemGroup>
