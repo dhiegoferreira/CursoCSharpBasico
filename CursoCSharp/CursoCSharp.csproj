@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ProgramSeven</StartupObject>
+    <StartupObject>CursoCSharp.ProgramEight</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,9 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProgramEight.cs" />
     <Compile Include="ProgramSeven.cs" />
     <Compile Include="Section10\Aula131\Entities\Employee.cs" />
     <Compile Include="Section10\Aula131\Entities\OutSourcedEmployee.cs" />
+    <Compile Include="Section10\Aula133\Entities\ImportedProduct.cs" />
+    <Compile Include="Section10\Aula133\Entities\Product.cs" />
+    <Compile Include="Section10\Aula133\Entities\UsedProduct.cs" />
     <Compile Include="Section9\Desafio\Entities\Client.cs" />
     <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Section9\Desafio\Entities\Order.cs" />
