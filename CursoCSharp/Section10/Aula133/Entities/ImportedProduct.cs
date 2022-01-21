@@ -1,5 +1,5 @@
 ﻿using System.Text;
-
+using System.Globalization;
 
 namespace CursoCSharp.Section10.Aula133.Entities
 {
@@ -9,6 +9,8 @@ namespace CursoCSharp.Section10.Aula133.Entities
         public double CustomsFee { get; set; }
 
 
+
+        public ImportedProduct() { }
         //Sobrescrita do construtor
 
         public ImportedProduct(string name, double price, double customsFee) : base(name, price)
@@ -19,14 +21,11 @@ namespace CursoCSharp.Section10.Aula133.Entities
 
 
 
-
         //Sobrescrita do método PriceTag
         public override string PriceTag()
         {
-            
-            System.Console.WriteLine(TotalPrice() + $"Customs fee: {CustomsFee}");
 
-            return base.PriceTag();
+            return $"{Name} $ {TotalPrice().ToString("F2", CultureInfo.InvariantCulture)} (Customs fee) {CustomsFee.ToString("F2", CultureInfo.InvariantCulture)}";
         }
 
 

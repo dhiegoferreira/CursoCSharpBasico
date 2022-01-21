@@ -54,7 +54,7 @@ namespace CursoCSharp
 
             foreach(Product prod in products)
             {
-                Console.WriteLine(prod.ToString());
+                Console.WriteLine(prod.PriceTag());
             }
 
 

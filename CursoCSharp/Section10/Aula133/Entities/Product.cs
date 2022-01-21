@@ -1,5 +1,5 @@
 ﻿using System.Text;
-
+using System.Globalization;
 namespace CursoCSharp.Section10.Aula133.Entities
 {
     class Product
@@ -19,9 +19,7 @@ namespace CursoCSharp.Section10.Aula133.Entities
         //Método para imprimir a section PRICE TAGS: com sobrescrita do método para virtual
         public virtual string PriceTag()
         {
-        
-            //Erro
-            return $"{Name} $ {Price}";
+            return $"{Name}  $ {Price.ToString("F2" , CultureInfo.InvariantCulture)}";
         }
     }
 }

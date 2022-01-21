@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ProgramEight</StartupObject>
+    <StartupObject>CursoCSharp.ProgramTwelve</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -48,12 +48,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProgramEight.cs" />
+    <Compile Include="ProgramEleven.cs" />
+    <Compile Include="ProgramNine.cs" />
     <Compile Include="ProgramSeven.cs" />
+    <Compile Include="ProgramTem.cs" />
+    <Compile Include="ProgramTwelve.cs" />
+    <Compile Include="Section10\Aula137\Entities\Company.cs" />
+    <Compile Include="Section10\Aula137\Entities\Individual.cs" />
+    <Compile Include="Section10\Aula137\Entities\Person.cs" />
     <Compile Include="Section10\Aula131\Entities\Employee.cs" />
     <Compile Include="Section10\Aula131\Entities\OutSourcedEmployee.cs" />
     <Compile Include="Section10\Aula133\Entities\ImportedProduct.cs" />
     <Compile Include="Section10\Aula133\Entities\Product.cs" />
     <Compile Include="Section10\Aula133\Entities\UsedProduct.cs" />
+    <Compile Include="Section10\Aula136\Entities\Circle.cs" />
+    <Compile Include="Section10\Aula136\Entities\Enums\Color.cs" />
+    <Compile Include="Section10\Aula136\Entities\Shape.cs" />
+    <Compile Include="Section11\Reservation\Entities\Reservation.cs" />
     <Compile Include="Section9\Desafio\Entities\Client.cs" />
     <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Section9\Desafio\Entities\Order.cs" />
@@ -124,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Section10\Aula136\Entities\Rectangle.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
