@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ProgramTwelve</StartupObject>
+    <StartupObject>CursoCSharp.ProgramAccount</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -52,7 +52,10 @@
     <Compile Include="ProgramNine.cs" />
     <Compile Include="ProgramSeven.cs" />
     <Compile Include="ProgramTem.cs" />
-    <Compile Include="ProgramTwelve.cs" />
+    <Compile Include="Section11\Account\Entities\Account.cs" />
+    <Compile Include="Section11\Account\Entities\Exceptions\AccountExceptions.cs" />
+    <Compile Include="Section11\ProgramAccount.cs" />
+    <Compile Include="Section11\ProgramReservation.cs" />
     <Compile Include="Section10\Aula137\Entities\Company.cs" />
     <Compile Include="Section10\Aula137\Entities\Individual.cs" />
     <Compile Include="Section10\Aula137\Entities\Person.cs" />
@@ -64,6 +67,7 @@
     <Compile Include="Section10\Aula136\Entities\Circle.cs" />
     <Compile Include="Section10\Aula136\Entities\Enums\Color.cs" />
     <Compile Include="Section10\Aula136\Entities\Shape.cs" />
+    <Compile Include="Section11\Reservation\Entities\Exceptions\DomainException.cs" />
     <Compile Include="Section11\Reservation\Entities\Reservation.cs" />
     <Compile Include="Section9\Desafio\Entities\Client.cs" />
     <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
