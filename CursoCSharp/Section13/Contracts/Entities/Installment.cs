@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Globalization;
+
 
 namespace Section13.Contracts.Entities
 {
@@ -20,9 +20,14 @@ namespace Section13.Contracts.Entities
 
         }
 
+        public override string ToString()
+        {
+            return DueDate.ToString("dd/MM/yyyy")
+                + " - "
+                + Amount.ToString("F2", CultureInfo.InvariantCulture);
+        }
+
     }
-
-
 
 
 }

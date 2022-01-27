@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.ProgramAccount</StartupObject>
+    <StartupObject>CursoCSharp.Section13.ProgramContract</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Section13\ProgramContract.cs" />
     <Compile Include="ProgramEight.cs" />
     <Compile Include="ProgramEleven.cs" />
     <Compile Include="ProgramNine.cs" />

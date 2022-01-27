@@ -23,6 +23,13 @@ namespace Section13.Contracts.Entities
             TotalValue = totalValue;
         }
 
+        //Criando um método vazio que adicionará um installment(parcela) à minha lista de parcelsas.
+
+        public  void AddInstallment(Installment installment)
+        {
+            installments.Add(installment);
+        }
+
 
     }
 }
