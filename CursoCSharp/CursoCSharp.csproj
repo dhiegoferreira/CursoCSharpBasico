@@ -141,6 +141,9 @@
     <None Include="App.config" />
     <Compile Include="Section10\Aula136\Entities\Rectangle.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Section13\CarRental\" />
+    <Folder Include="Section13\Contracts\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
