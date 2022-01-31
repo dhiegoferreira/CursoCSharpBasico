@@ -4,7 +4,7 @@
 //Programa para iniciar a Section10 com o tópico: UPCASTIN E DOWNCASTING (AULA 127)
 namespace CursoCSharp
 {
-    class ProgramFive
+    class ProgramUpcastingAndDownCasting
     {
         static void Main()
         {

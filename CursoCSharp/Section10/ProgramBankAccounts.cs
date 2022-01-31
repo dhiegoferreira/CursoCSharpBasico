@@ -1,9 +1,13 @@
 ﻿using CursoCSharp.Section10.Aula127.Entities;
 using System;
 
+
+//Programa sobre Herança e polimorfismo
+//Iremos criar uma classe conta (Account) que será a Super Classe
+//Teremos duas classe especializadas BusinessAccount and SavingAccount
 namespace CursoCSharp
 {
-    class ProgramSix
+    class ProgramBankAccounts
     {
         static void Main()
         {

@@ -1,12 +1,14 @@
-﻿using CursoCSharp.Section9;
-using System.Collections.Generic;
+﻿using CursoCSharp.Section9.Entities2.Enums;
+using CursoCSharp.Section9.Entities2;
+
+
 using System;
 using System.Globalization;
 
 //SECTION 9 Exercício sobre COMPOSIÇÃO DE OBJETOS
-namespace CursoCSharp
+namespace CursoCSharp.Section9
 {
-    class ProgramTwo
+    class ProgramComposition
     {
         static void Main(string[] args)
         {

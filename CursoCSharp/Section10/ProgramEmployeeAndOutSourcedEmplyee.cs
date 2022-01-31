@@ -3,9 +3,11 @@ using CursoCSharp.Section10.Aula131.Entities;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace CursoCSharp
+
+//Programa sobre empregados e terceirizados.
+namespace CursoCSharp.Section10
 {
-    class ProgramSeven
+    class ProgramEmployeeAndOutSourcedEmplyee
     {
 
         static void Main()
@@ -48,8 +50,6 @@ namespace CursoCSharp
             }
 
             //IMPRIMINDO
-
-
             Console.WriteLine("PAYMENTS");
 
             foreach(Employee emp in employees)

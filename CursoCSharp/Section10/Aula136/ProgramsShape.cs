@@ -5,7 +5,8 @@ using System.Globalization;
 
 namespace CursoCSharp
 {
-    class ProgramNine
+    //Programa sobre herança e classes abstratas
+    class ProgramShape
     {
 
         static void Main()

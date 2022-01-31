@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section13.ProgramContract</StartupObject>
+    <StartupObject>CursoCSharp.DotNetTutorials.Interface.ProgramArea</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,12 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DotNetTutorials\Abstraction\Car.cs" />
+    <Compile Include="DotNetTutorials\AcessSpecifiers\Customer.cs" />
+    <Compile Include="DotNetTutorials\Interface\Area.cs" />
+    <Compile Include="DotNetTutorials\Interface\Circle.cs" />
+    <Compile Include="DotNetTutorials\Interface\ProgramArea.cs" />
+    <Compile Include="DotNetTutorials\Interface\Rectangle.cs" />
     <Compile Include="Section13\ProgramContract.cs" />
-    <Compile Include="ProgramEight.cs" />
-    <Compile Include="ProgramEleven.cs" />
-    <Compile Include="ProgramNine.cs" />
-    <Compile Include="ProgramSeven.cs" />
-    <Compile Include="ProgramTem.cs" />
+    <Compile Include="Section10\ProgramProductUsedProduct.cs" />
+    <Compile Include="Section10\ProgramTratamentoDeExcessoes.cs" />
+    <Compile Include="Section10\Aula136\ProgramsShape.cs" />
+    <Compile Include="Section10\ProgramEmployeeAndOutSourcedEmplyee.cs" />
+    <Compile Include="Section10\ProgramCompay.cs" />
     <Compile Include="Section11\Account\Entities\Account.cs" />
     <Compile Include="Section11\Account\Entities\Exceptions\AccountExceptions.cs" />
     <Compile Include="Section11\ProgramAccount.cs" />
@@ -88,11 +94,11 @@
     <Compile Include="Section9\Desafio\Entities\OrderItem.cs" />
     <Compile Include="Section9\Desafio\Entities\Product.cs" />
     <Compile Include="OrientacaoaObjetos\Curso.cs" />
-    <Compile Include="ProgramFive.cs" />
-    <Compile Include="ProgramFour.cs" />
-    <Compile Include="ProgramOne.cs" />
-    <Compile Include="ProgramSix.cs" />
-    <Compile Include="ProgramTwo.cs" />
+    <Compile Include="Section10\ProgramUpcastingAndDownCasting.cs" />
+    <Compile Include="Section9\ProgramClientAndProducts.cs" />
+    <Compile Include="Section9\ProgramEnums.cs" />
+    <Compile Include="Section10\ProgramBankAccounts.cs" />
+    <Compile Include="Section9\ProgramComposition.cs" />
     <Compile Include="Section10\Aula127\Entities\Account.cs" />
     <Compile Include="Section10\Aula127\Entities\BusinessAccount.cs" />
     <Compile Include="Section10\Aula127\Entities\SavingAccount.cs" />
@@ -140,15 +146,15 @@
     <Compile Include="Section6\Program.cs" />
     <Compile Include="Section6\ProgramProduct.cs" />
     <Compile Include="Section6\SctructInicializacao.cs" />
-    <Compile Include="Section9\Department.cs" />
+    <Compile Include="Section9\Entities2\Department.cs" />
     <Compile Include="Section9\Entities\Comment.cs" />
     <Compile Include="Section9\Entities\Order.cs" />
     <Compile Include="Section9\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Section9\Entities\Post.cs" />
-    <Compile Include="Section9\HourContract.cs" />
-    <Compile Include="ProgramThree.cs" />
-    <Compile Include="Section9\Worker.cs" />
-    <Compile Include="Section9\WorkerLevel.cs" />
+    <Compile Include="Section9\Entities2\HourContract.cs" />
+    <Compile Include="Section9\ProgramThree.cs" />
+    <Compile Include="Section9\Entities2\Worker.cs" />
+    <Compile Include="Section9\Entities2\Enums\WorkerLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

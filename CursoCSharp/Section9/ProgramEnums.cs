@@ -3,9 +3,12 @@ using CursoCSharp.Section9.Entities.Enums;
 using System; 
 
 //INICIO DA SECTION 9 sobre Enumerações 
+//Criaremos um domínio para veriricar o ciclo de  vida de um pedido
+//Enums
+
 namespace CursoCSharp
 {
-    class ProgramOne
+    class ProgramEnums
     {
         
         static void Main(string[] args)

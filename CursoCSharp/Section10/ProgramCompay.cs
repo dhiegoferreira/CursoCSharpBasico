@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System;
 
-
-namespace CursoCSharp
+//Herança e polimorfismo
+namespace CursoCSharp.Section10.Aula137
 
 {
-    class ProgramTem
+    class ProgramCompany
     {
-
         static void Main()
         {
             List<Person> people = new List<Person>();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Section9
+namespace CursoCSharp.Section9.Entities2
 {
     class Department
     {

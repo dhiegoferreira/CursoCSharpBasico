@@ -3,9 +3,8 @@
 
 namespace CursoCSharp
 {
-    class ProgramEleven
+    class ProgramTratamentoDeExcessoes
     {
-
         static void Main()
         {
             try

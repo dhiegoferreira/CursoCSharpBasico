@@ -2,7 +2,7 @@
 using System.Globalization;
 
 
-namespace CursoCSharp.Section9
+namespace CursoCSharp.Section9.Entities2
 {
     class HourContract
     {

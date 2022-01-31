@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System;
+using CursoCSharp.Section9.Entities2.Enums;
 
-namespace CursoCSharp.Section9
+namespace CursoCSharp.Section9.Entities2
 {
     class Worker
     {

@@ -3,10 +3,10 @@ using CursoCSharp.DesafioS9.Entities.Enums;
 using System;
 using System.Globalization;
 
-
+//Desafio sobre Clientes e produtos
 namespace CursoCSharp
 {
-    class ProgramFour
+    class ProgramClienteAndProducts
     {
 
         static void Main()
