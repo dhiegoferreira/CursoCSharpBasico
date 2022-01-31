@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section15.ProgramNumberAdd1</StartupObject>
+    <StartupObject>CursoCSharp.Section15.ProgramGenericPrint</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -53,6 +53,7 @@
     <Compile Include="DotNetTutorials\Interface\Circle.cs" />
     <Compile Include="DotNetTutorials\Interface\ProgramArea.cs" />
     <Compile Include="DotNetTutorials\Interface\Rectangle.cs" />
+    <Compile Include="Section13\Program.cs" />
     <Compile Include="Section14\program.cs" />
     <Compile Include="Section14\ProgramContract.cs" />
     <Compile Include="Section10\ProgramProductUsedProduct.cs" />
@@ -89,8 +90,8 @@
     <Compile Include="Section14\Contracts\Services\ContractService.cs" />
     <Compile Include="Section14\Contracts\Services\IOnlinePaymentService.cs" />
     <Compile Include="Section14\Contracts\Services\PaypalService.cs" />
-    <Compile Include="Section15\Entities\Numbers.cs" />
-    <Compile Include="Section15\ProgramNumberAdd1.cs" />
+    <Compile Include="Section15\ProgramGenericPrint.cs" />
+    <Compile Include="Section15\Services\CalculationService.cs" />
     <Compile Include="Section15\Services\PrintService.cs" />
     <Compile Include="Section9\Desafio\Entities\Client.cs" />
     <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
@@ -165,7 +166,8 @@
     <Compile Include="Section10\Aula136\Entities\Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Section13\" />
+    <Folder Include="Section12\" />
+    <Folder Include="Section14\IComparable\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

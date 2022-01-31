@@ -16,6 +16,8 @@ namespace CursoCSharp.Section9.Entities
         public List<Comment> Comments { get; set; } = new List<Comment>();
         
 
+        //Sobrecarga de construtores
+
         //Com esse construtor eu consigo setar e obter os atributos da class
         public Post()
         {

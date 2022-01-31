@@ -6,6 +6,11 @@ namespace CursoCSharp.Section14
 {
     class program
     {
+
+        /// <summary>
+        /// Lê o arquivo e ordena em ordem alfabética.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             string path = @"c:\temp\in.txt";
@@ -23,7 +28,7 @@ namespace CursoCSharp.Section14
                     //Criando uma lista de caracteres.
                     List<string> list = new List<string>();
 
-                    //
+                    //Enquanto não chegar ao fim do arquivo
                     while (!sr.EndOfStream)
                     {
                         list.Add(sr.ReadLine());
