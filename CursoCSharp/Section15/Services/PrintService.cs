@@ -6,27 +6,29 @@ using System.Linq;
 namespace CursoCSharp.Section15.Services
 {
 
-    //Gemeric permitem que classes, interfaces e métodos posssam ser parametrizados por tipo.
+    //Generic permitem que classes, interfaces e métodos posssam ser parametrizados por tipo.
+    
     //Repare a estrutura logo após o nome da classe.
     class PrintService<T>
     {
 
-        //Criando um vetor do tipo inteiro com o tamanho igual a 10.
+        //Criando um vetor de um tipo genérico com o tamanho igual a 10.
         private T[] _values = new T[10];
 
-        //contador para o [índice do vetor]
+        //contador para o [índice do vetor] - idependente do tipo de vetor sempre temos índices, então podemos declarar um contador para percorrer a lista.
         private int _count = 0;
 
         
         //Podemos fazer uma programação defensiva para quando o contador (count) chegar no limíte das posições do vetor
         public void AddValue(T value)
-        {
-            if(_count == 10)
+        { 
+        
+            if(_count == 10) //Se o contador for igual a 10, não teremos índice disponível, então lançamos uma excessão para tratar o erro de comprimento.
             {
 
-                throw new InvalidOperationException("PrintService is full");
+                throw new InvalidOperationException("PrintService is full"); //Lançando uma exceção
             }
-            
+        
             _values[_count] = value; //valor que chega pelo parâmetro
             _count++; //incrementando uma unidade ao count toda vez que ele receber o parâmetro value.
         }
@@ -38,7 +40,7 @@ namespace CursoCSharp.Section15.Services
         public T First()
         {
             //Programação defensiva para o caso em que a posição 0 do vetor estiver vazia.
-            if (_values[0].ToString().Equals(""))
+            if (_values[0].ToString().Equals("")) //Se não tivermos elementos na posição zero, então lançaremos uma excessão.
             {
                 throw new InvalidOperationException("PrintService is null");
                 
@@ -46,7 +48,7 @@ namespace CursoCSharp.Section15.Services
             return _values[0]; //retorna o primeiro elemento do vetor
         }
 
-        //
+    
         public void Print()
         {
             Console.Write("[");
