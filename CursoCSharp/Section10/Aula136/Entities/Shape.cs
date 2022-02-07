@@ -3,7 +3,7 @@
 
 namespace CursoCSharp.Section10.Aula136.Entities
 {
-      abstract class Shape
+      abstract class Shape //Classe abstrata não pode ser instanciada (herança total)
     {
         public Color Color { get; set; }
 

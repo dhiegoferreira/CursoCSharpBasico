@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CursoCSharp.Section13.BlocoUsing</StartupObject>
+    <StartupObject>CursoCSharp.Section14.HerancaMultipla.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -47,16 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DotNetTutorials\Abstraction\Car.cs" />
-    <Compile Include="DotNetTutorials\AcessSpecifiers\Customer.cs" />
-    <Compile Include="DotNetTutorials\Interface\Area.cs" />
-    <Compile Include="DotNetTutorials\Interface\Circle.cs" />
-    <Compile Include="DotNetTutorials\Interface\ProgramArea.cs" />
-    <Compile Include="DotNetTutorials\Interface\Rectangle.cs" />
     <Compile Include="Section13\BlocoUsing.cs" />
     <Compile Include="Section13\FileStreamTutorial.cs" />
     <Compile Include="Section13\Program.cs" />
     <Compile Include="Section13\ExcecoesComArquivos.cs" />
+    <Compile Include="Section14\HerancaMultiplaCorrecao\Entities\ComboDevice.cs" />
+    <Compile Include="Section14\HerancaMultiplaCorrecao\Entities\Device.cs" />
+    <Compile Include="Section14\HerancaMultiplaCorrecao\Entities\IPrinter.cs" />
+    <Compile Include="Section14\HerancaMultiplaCorrecao\Entities\IScanner.cs" />
+    <Compile Include="Section14\HerancaMultipla\Entities\ComboDevice.cs" />
+    <Compile Include="Section14\HerancaMultipla\Entities\Device.cs" />
+    <Compile Include="Section14\HerancaMultipla\Entities\Printer.cs" />
+    <Compile Include="Section14\HerancaMultipla\Entities\Scanner.cs" />
+    <Compile Include="Section14\HerancaMultipla\Program.cs" />
     <Compile Include="Section14\IComparable\Entities\Employee.cs" />
     <Compile Include="Section14\program.cs" />
     <Compile Include="Section14\ProgramContract.cs" />
@@ -99,12 +102,18 @@
     <Compile Include="Section15\Services\CalculationService.cs" />
     <Compile Include="Section15\Services\PrintService.cs" />
     <Compile Include="Section7\CondicionalTernaria.cs" />
+    <Compile Include="Section7\DateTimeKindEPardraoISO8601.cs" />
+    <Compile Include="Section7\DuracaoTimeSpan.cs" />
+    <Compile Include="Section7\EDateTime.cs" />
+    <Compile Include="Section7\FuncoesParaString.cs" />
+    <Compile Include="Section7\PropriedadesEOperacoesDateTime.cs" />
+    <Compile Include="Section7\PropriedadesEOperacoesTimeSpan.cs" />
+    <Compile Include="Section7\SwitchCase.cs" />
     <Compile Include="Section9\Desafio\Entities\Client.cs" />
     <Compile Include="Section9\Desafio\Entities\Enums\OrderStatus.cs" />
     <Compile Include="Section9\Desafio\Entities\Order.cs" />
     <Compile Include="Section9\Desafio\Entities\OrderItem.cs" />
     <Compile Include="Section9\Desafio\Entities\Product.cs" />
-    <Compile Include="OrientacaoaObjetos\Curso.cs" />
     <Compile Include="Section10\ProgramUpcastingAndDownCasting.cs" />
     <Compile Include="Section9\ProgramClientAndProducts.cs" />
     <Compile Include="Section9\ProgramEnums.cs" />
@@ -130,13 +139,6 @@
     <Compile Include="Section5\Ex03.cs" />
     <Compile Include="Section5\Produtos.cs" />
     <Compile Include="Section5\ProdutosPropertis.cs" />
-    <Compile Include="OrientacaoaObjetos\Autor.cs" />
-    <Compile Include="OrientacaoaObjetos\Departamento.cs" />
-    <Compile Include="OrientacaoaObjetos\Editora.cs" />
-    <Compile Include="OrientacaoaObjetos\Endereco.cs" />
-    <Compile Include="OrientacaoaObjetos\Instituicao.cs" />
-    <Compile Include="OrientacaoaObjetos\Livro.cs" />
-    <Compile Include="OrientacaoaObjetos\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Section3\Aula17.cs" />
     <Compile Include="Section3\Aula18.cs" />
